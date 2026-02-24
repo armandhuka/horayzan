@@ -4,6 +4,7 @@ import * as React from "react"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { UserPlus, ArrowRight } from "lucide-react"
+export const dynamic = "force-dynamic"
 
 import { Container } from "@/components/shared/container"
 import { Section } from "@/components/shared/section"

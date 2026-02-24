@@ -15,6 +15,7 @@ import {
 import { Button } from "@/components/ui/button"
 import { createClient } from "@/lib/supabase/client"
 import { type User as SupabaseUser } from "@supabase/supabase-js"
+export const dynamic = "force-dynamic"
 
 export default function DashboardPage() {
     const supabase = createClient()
